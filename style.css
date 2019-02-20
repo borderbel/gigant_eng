@@ -1659,10 +1659,11 @@ a.active {
 	padding: 0 0 17px;
 	position: relative;
 	z-index: 1;
-	font-size: 50px
+	font-size: 40px
 }
 .main-header h3 {
 	font-size: 30px;
+	font-weight: 500;
 }
 
 .main-header h2:before {
@@ -1679,7 +1680,9 @@ a.active {
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-
+.main-header-desc {
+	font-size: 22px;
+}
 /*------------------------------------------------------------------
 13. About Sec / .about-sec
 -------------------------------------------------------------------*/
@@ -2299,9 +2302,6 @@ a.active {
 }
 .client-logo {
 	width: 120px;
-}
-.client-header-desc {
-	font-size: 22px;
 }
 /*------------------------------------------------------------------
 18. Partners Holder / #partners-holder

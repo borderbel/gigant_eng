@@ -1659,6 +1659,10 @@ a.active {
 	padding: 0 0 17px;
 	position: relative;
 	z-index: 1;
+	font-size: 50px
+}
+.main-header h3 {
+	font-size: 30px;
 }
 
 .main-header h2:before {
@@ -2296,10 +2300,9 @@ a.active {
 .client-logo {
 	width: 120px;
 }
-.client .main-header p {
-	font-size: 18px;
+.client-header-desc {
+	font-size: 22px;
 }
-
 /*------------------------------------------------------------------
 18. Partners Holder / #partners-holder
 -------------------------------------------------------------------*/

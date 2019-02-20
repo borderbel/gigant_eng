@@ -2311,6 +2311,20 @@ a.active {
 }
 .partners-list-item {
 	display: inline-block;
+  vertical-align: middle;
+	width: 100px;
+	height: 100px;
+}
+.partners-list-item img:hover {
+	transition-duration: .2s;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(.7,1,.7,1);
+	opacity: 1;
+}
+.partners-list-item img {
+	opacity: .3;
+	cursor: pointer;
+}
 }
 .partners-logo {
 	width: 120px;
@@ -2785,10 +2799,9 @@ a.active {
 .branch__block_city {
 	width: 352px;
 	float: left;
-	padding: 20px;
+	padding-top: 10px;
 	box-sizing: border-box;
 	position: relative;
-	height: 480px;
 	border: 1px solid #e5e5e5;
 	background: #ffffff;
 	margin-right: 10px;

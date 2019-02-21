@@ -1578,9 +1578,46 @@ a.active {
   	[Service]
 ------------------------------------------------------------------*/
 .service {
-	background: #f2f2f2;
+	position: relative;
 	padding: 50px;
+	background-size: cover;
+	transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
+.service:hover {
+	-webkit-transition: all 0.3s ease;;
+	-moz-transition: all 0.3s ease;;
+	-o-transition: all 0.3s ease;;
+	transition: all 2s ease;
+}
+.service:hover p {
+	color: #ffffff;
+}
+.service:hover h3 {
+	color: #be8b0a;
+}
+.service-logistic:hover {
+	background-image: url(images/privilege/logistic.jpg);
+}
+.service-test:hover {
+	background-image: url(images/privilege/test.jpg);
+}
+.service-prof:hover {
+	background-image: url(images/privilege/proff.jpg);
+}
+.service-cond:hover {
+	background-image: url(images/privilege/condition.jpg);
+}
+.service-speed:hover {
+	background-image: url(images/privilege/speed.jpg);
+}
+.service-serv:hover {
+	background-image: url(images/privilege/service.jpg);
+}
+
 
 .service .service-element,
 .service .service-info {

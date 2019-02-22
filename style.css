@@ -499,6 +499,7 @@ img.aligncenter {
 body {
 	font-weight: 400;
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 body.boxed-v #wrapper {
@@ -698,7 +699,7 @@ a.active {
 }
 
 .navbar-default .navbar-nav {
-	font: 700 14px/16px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 14px/16px "Montserrat", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -770,7 +771,7 @@ a.active {
 }
 
 #nav {
-	font: 700 30px/40px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 30px/40px "Montserrat", sans-serif;
 	text-transform: uppercase;
 	margin: 0 0 72px;
 }
@@ -901,7 +902,7 @@ a.active {
 }
 
 .text-block .text {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 45px;
 	line-height: 70px;
 	color: #ffffff;
@@ -1059,7 +1060,7 @@ a.active {
 .main-slider h1 {
 	letter-spacing: 2px;
 	word-spacing: 1px;
-	font: 700 50px/55px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 50px/55px "Montserrat", sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 	margin: 0 0 40px;
@@ -1077,7 +1078,7 @@ a.active {
 	letter-spacing: 5px;
 	word-spacing: 3px;
 	margin: 0 0 20px;
-	font: 500 16px/30px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 16px/30px "Montserrat", sans-serif;
 	color: #fff;
 	vertical-align: top;
 	display: inline-block;
@@ -1266,7 +1267,7 @@ a.active {
 	border-radius: 30px;
 	background: transparent;
 	border: 1px solid #fff;
-	font: 500 20px/30px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 20px/30px "Montserrat", sans-serif;
 }
 
 .form-holder {
@@ -1316,12 +1317,12 @@ a.active {
 .form-holder .form-header {
 	overflow: hidden;
 	margin: 0 0 25px;
-	font: 400 16px/24px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 16px/24px "Montserrat", sans-serif;
 	color: #fff;
 }
 
 .form-holder .form-title {
-	font: 700 20px/24px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 20px/24px "Montserrat", sans-serif;
 	color: #fff;
 	display: block;
 	margin: 0 0 4px;
@@ -1385,7 +1386,7 @@ a.active {
 	background: transparent;
 	border: 1px solid #fff;
 	outline: none;
-	font: 400 16px/30px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 16px/30px "Montserrat", sans-serif;
 }
 
 .signup-form .form-control.error {
@@ -1458,7 +1459,7 @@ a.active {
 -------------------------------------------------------------------*/
 
 .btn {
-	font: 500 20px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 20px/22px "Montserrat", sans-serif;
 	color: #fff;
 	min-width: 270px;
 	border: 1px solid #fff;
@@ -1478,7 +1479,7 @@ a.active {
 }
 
 .btn2 {
-	font: 500 20px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 20px/22px "Montserrat", sans-serif;
 	color: #fff;
 	min-width: 270px;
 	border: 1px solid #fff;
@@ -1519,7 +1520,7 @@ a.active {
 	border-radius: 30px;
 	background: transparent;
 	border: 1px solid #fff;
-	font: 500 20px/30px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 20px/30px "Montserrat", sans-serif;
 }
 
 /*------------------------------------------------------------------
@@ -1527,7 +1528,7 @@ a.active {
 -------------------------------------------------------------------*/
 
 .main-header {
-	font: 300 20px/28px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 20px/28px "Montserrat", sans-serif;
 	color: #adabab;
 	margin: 0 0 68px;
 }
@@ -1537,7 +1538,7 @@ a.active {
 }
 
 .main-header h2 {
-	font: 500 30px/32px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 600 30px/32px "Montserrat", sans-serif;
 	color: #2b2a2a;
 	text-transform: uppercase;
 	margin: 0 0 30px;
@@ -1560,7 +1561,7 @@ a.active {
 	top: auto;
 	bottom: 0;
 	right: auto;
-	width: 102px;
+	width: 110px;
 	height: 1px;
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -1657,6 +1658,15 @@ a.active {
 	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+.service-info h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+}
+
+.service-info p {
+	font-size: 15px;
+}
+
 .content-lg {
 	padding-top: 50px;
 	padding-bottom: 100px;
@@ -1689,7 +1699,7 @@ a.active {
 .about-sec .service-list {
 	overflow: hidden;
 	margin: 0;
-	font: 400 16px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 16px/22px "Montserrat", sans-serif;
 	color: #808080;
 }
 
@@ -1716,7 +1726,7 @@ a.active {
 }
 
 .about-sec .service-list h3 {
-	font: 500 20px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 20px/22px "Montserrat", sans-serif;
 	margin: 0 0 25px;
 	display: block;
 	text-transform: uppercase;
@@ -1749,41 +1759,44 @@ a.active {
 
 .about-sec .info-box {
 	letter-spacing: 2px;
-	font: 16px/25px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/25px "Montserrat", sans-serif;
 }
 
 .about-sec .info-box h3 {
 	margin: 0 0 25px;
 	letter-spacing: 0;
 	text-transform: uppercase;
-	font: 500 30px/35px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 30px/35px "Montserrat", sans-serif;
 }
 
 .about-sec .info-box strong {
 	display: block;
 	color: #2b2a2a;
 	margin: 0 0 25px;
-	font: 500 18px/25px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 18px/25px "Montserrat", sans-serif;
 }
 
 .info-box {
 	font-size: 16px;
-	padding-top: 20px;
+	padding-top: 3px;
 }
 
 .info-box-list {
 	list-style: none;
 	padding: 0;
+	font-style: italic;
 }
 
 .info-box strong {
 	font-size: 20px;
+	font-style: italic;
+	font-weight: 800;
 }
 
 .info-box p {
 	padding: 20px 0;
+	font-style: italic;
 }
-
 /*------------------------------------------------------------------
 14. Project Rating / .project-rating
 -------------------------------------------------------------------*/
@@ -1797,14 +1810,14 @@ a.active {
 }
 
 .project-rating .title {
-	font: 500 20px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 900 20px/22px "Montserrat", sans-serif;
 	color: #fff;
 	display: block;
 	text-transform: uppercase;
 }
 
 .project-rating .counter {
-	font: 700 40px/42px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 700 40px/42px "Montserrat", sans-serif;
 	color: #fff;
 	display: block;
 	text-transform: uppercase;
@@ -1966,7 +1979,7 @@ a.active {
 }
 
 .service-sec .service-list h4 {
-	font: 500 20px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 20px/22px "Montserrat", sans-serif;
 	margin: 0 0 16px;
 	text-transform: uppercase;
 }
@@ -2102,14 +2115,14 @@ a.active {
 -------------------------------------------------------------------*/
 .partners-list {
 	list-style: none;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .partners-list-item {
 	position: relative;
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	margin-right: 20px;
 }
 
@@ -2124,12 +2137,13 @@ a.active {
 	-ms-filter: none;
 	-o-filter: none;
 	filter: none;
-	filter: none; 
+	filter: none;
 
 	-webkit-transition: all 1s;
 	-moz-transition: all 1s;
 	-o-transition: all 1s;
-	transition: all .8s;/* IE 6-9 */
+	transition: all .8s;
+	/* IE 6-9 */
 }
 
 .partners-list-item img {
@@ -2162,7 +2176,7 @@ a.active {
 }
 
 .team-sec .main-header {
-	font: 400 14px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 14px/20px "Montserrat", sans-serif;
 	margin: 0 0 63px;
 }
 
@@ -2229,7 +2243,7 @@ a.active {
 }
 
 .team-sec .team-col .title {
-	font: 400 20px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 20px/20px "Montserrat", sans-serif;
 	color: #fff;
 	display: inline-block;
 	vertical-align: middle;
@@ -2248,7 +2262,7 @@ a.active {
 }
 
 .team-sec .team-col .skill {
-	font: 400 14px/16px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 14px/16px "Montserrat", sans-serif;
 	color: #fff;
 	display: block;
 	opacity: 0;
@@ -2297,7 +2311,7 @@ a.active {
 }
 
 .client-sec .main-header {
-	font: 400 14px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 14px/20px "Montserrat", sans-serif;
 	margin: 0 0 48px;
 }
 
@@ -2332,12 +2346,14 @@ a.active {
 .contact-sec.style1 .map-holder {
 	margin: 0;
 }
-#map{
-	height:390px;
+
+#map {
+	height: 390px;
 }
-[class*="ymaps-2"][class*="-ground-pane"]{
-	filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-	-webkit-filter:grayscale(100%);
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(100%);
 }
 
 .contact-sec.style1 .contact-info {
@@ -2368,7 +2384,7 @@ a.active {
 }
 
 .contact-sec .main-header {
-	font: 400 14px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 14px/20px "Ubuntu", sans-serif;
 	margin: 0 0 49px;
 }
 
@@ -2394,13 +2410,13 @@ a.active {
 }
 
 .contact-sec .contact-info h5 {
-	font: 400 20px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 20px/22px "Montserrat", sans-serif;
 	margin: 0 0 39px;
 	text-transform: uppercase;
 }
 
 .contact-sec .address-list {
-	font: 400 14px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 14px/20px "Montserrat", sans-serif;
 	overflow: hidden;
 	margin: 0;
 	color: #808080;
@@ -2437,7 +2453,7 @@ a.active {
 }
 
 .contact-sec .contact h5 {
-	font: 400 20px/22px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 20px/22px "Montserrat", sans-serif;
 	margin: 0 0 26px;
 	text-transform: uppercase;
 }
@@ -2445,7 +2461,7 @@ a.active {
 .contact-sec .contact-form {
 	width: 100%;
 	overflow: hidden;
-	font: 400 14px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 14px/20px "Montserrat", sans-serif;
 	color: #808080;
 }
 
@@ -2591,7 +2607,7 @@ a.active {
 }
 
 .contact-sec .contact-form .sub-btn {
-	font: 500 18px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 500 18px/20px "Montserrat", sans-serif;
 	color: #2b2a2a;
 	width: 165px;
 	border: 1px solid;
@@ -2731,7 +2747,7 @@ a.active {
 }
 
 #footer .copyright {
-	font: 400 14px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 14px/20px "Montserrat", sans-serif;
 	color: #555;
 	padding: 10px 0 0;
 }
@@ -3033,32 +3049,12 @@ a.active {
 	}
 }
 
-
 @media (min-width: 768px) {
 	.commentlist-item .commentlist-item {
 		padding: 0 0 0 2em;
 	}
 }
 
-@media (max-width: 767px) {
-
-	.navigation .page-numbers,
-	.navigation-comments .page-numbers {
-		padding: 0;
-	}
-
-	.navigation .next,
-	.navigation .prev,
-	.navigation-comments .next,
-	.navigation-comments .prev {
-		padding: .2em;
-	}
-
-	.navigation-single .next a,
-	.navigation-single .prev a {
-		padding: .2em;
-	}
-}
 
 @-webkit-keyframes mymove {
 	from {
@@ -3080,9 +3076,7 @@ a.active {
 	}
 }
 
-
 /** img-gallery **/
-
 .img-gallery {
 	position: relative;
 	padding: 100px 0px;

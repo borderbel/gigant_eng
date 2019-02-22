@@ -1582,32 +1582,40 @@ a.active {
 	padding: 50px;
 	background-size: cover;
 	transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
 	-webkit-transition: all 1s ease;
 }
+
 .service:hover p {
 	color: #ffffff;
 }
+
 .service:hover h3 {
 	color: #be8b0a;
 }
+
 .service-logistic:hover {
 	background-image: url(images/privilege/logistic.jpg);
 }
+
 .service-test:hover {
 	background-image: url(images/privilege/test.jpg);
 }
+
 .service-prof:hover {
 	background-image: url(images/privilege/proff.jpg);
 }
+
 .service-cond:hover {
 	background-image: url(images/privilege/condition.jpg);
 }
+
 .service-speed:hover {
 	background-image: url(images/privilege/speed.jpg);
 }
+
 .service-serv:hover {
 	background-image: url(images/privilege/service.jpg);
 }
@@ -1635,7 +1643,7 @@ a.active {
 	-webkit-transform: translate3d(0, -100%, 0);
 	-moz-transform: translate3d(0, -100%, 0);
 	transform: translate3d(0, -100%, 0);
-	transition-duration: 300ms;
+	transition-duration: 1s;
 	transition-property: all;
 	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
@@ -1981,90 +1989,95 @@ a.active {
 }
 
 .lease-info_list {
-    margin: 0 -15px;
-    padding: 20px 0 26px;
-    list-style: none;
-    counter-reset: li;
+	margin: 0 -15px;
+	padding: 20px 0 26px;
+	list-style: none;
+	counter-reset: li;
 }
 
 .lease-info_item {
-    width: 40%;
-    position: relative;
-    float: left;
-    box-sizing: border-box;
-    counter-increment: li;
+	width: 40%;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	counter-increment: li;
 }
 
 .lease-info-item_in {
-    font: normal normal 15px/22px "Open Sans", sans-serif;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
-    border-radius: 20px;
-    padding: 10px;
-    text-align: center;
+	font: normal normal 15px/22px "Open Sans", sans-serif;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+	border-radius: 20px;
+	padding: 10px;
+	text-align: center;
 	color: rgba(54, 54, 54, 0.8);
 	position: relative;
-	
+
 }
 
 .lease-info-item_in .preview {
-    height: 51px;
-    vertical-align: middle;
-    display: table;
+	height: 51px;
+	vertical-align: middle;
+	display: table;
 }
 
 .lease-info-item_in span {
-    display: table-cell;
-    vertical-align: bottom;
+	display: table-cell;
+	vertical-align: bottom;
 	width: 100%;
 	position: absolute;
-    left: 20%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	left: 20%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .item-left {
 	margin-left: 15px;
 }
+
 .item-left span {
 	position: absolute;
-    left: 180%;
-    top: 50%;
+	left: 180%;
+	top: 50%;
 }
 
 .lease-info-item_in img {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 .lease-info-item_in h4 {
-    font-weight: 700;
+	font-weight: 700;
 	margin: -3px 0 16px;
 	position: absolute;
-    left: 45%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	left: 45%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .item-left h4 {
 	position: absolute;
-    left: 35%;
-    top: 50%;
+	left: 35%;
+	top: 50%;
 }
 
 .lease-info_list:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .scheme-icon {
 	font-size: 30px;
 }
+
 .item-right {
 	float: right;
-}.item-right {
+}
+
+.item-right {
 	margin-right: 15px;
 }
+
 /*------------------------------------------------------------------
 17. client Sec / .client-sec
 -------------------------------------------------------------------*/
@@ -2105,6 +2118,18 @@ a.active {
 	transition-property: all;
 	transition-timing-function: cubic-bezier(.7, 1, .7, 1);
 	opacity: 1;
+
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	filter: none;
+	filter: none; 
+
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all .8s;/* IE 6-9 */
 }
 
 .partners-list-item img {
@@ -2112,8 +2137,15 @@ a.active {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	opacity: .3;
 	cursor: pointer;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	opacity: .3;
+	/* IE 6-9 */
 }
 
 .partners-logo {
@@ -2299,6 +2331,13 @@ a.active {
 
 .contact-sec.style1 .map-holder {
 	margin: 0;
+}
+#map{
+	height:390px;
+}
+[class*="ymaps-2"][class*="-ground-pane"]{
+	filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter:grayscale(100%);
 }
 
 .contact-sec.style1 .contact-info {

@@ -193,6 +193,7 @@
 
 	.row {
 		margin-right: 0px;
+		margin-left: 0px;
 	}
 }
 
@@ -308,7 +309,7 @@
 	}
 
 	.item-left span {
-		left: 210px;
+		left: 190px;
 	}
 
 	.item-left h4 {
@@ -471,6 +472,7 @@
 }
 
 @media (max-width: 767px) {
+
 	.nav-holder {
 		width: 100%;
 		padding: 23px 8px 0 3px;
@@ -568,6 +570,17 @@
 	.btn2 {
 		padding: 13px;
 		min-width: 240px;
+	}
+
+	.text-block .text {
+		font-size: 25px;
+		margin-left: 240px;
+		margin-right: 250px;
+		line-height: 35px;
+	}
+
+	.info-box {
+		padding-left: 30px;
 	}
 
 	.main-header h2 {
@@ -876,15 +889,47 @@
 		padding: .2em;
 	}
 
-	.item-left {
-		margin-left: 50px;
-	}
-
 	.item-left span {
-		left: 260px;
+		left: 26px;
 	}
 
 	.item-left h4 {
-		left: 45%;
+		left: 56%;
 	}
+
+	.item-right {
+		margin: 0;
+	}
+	.lease-info-item_in row,
+	.lease-info_item {
+		float: none;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.lease-info-item_in {
+		width: 100%;
+		margin: 0;
+	}
+
+	.project-rating .counter {
+		margin-bottom: 0;
+	}
+
+	.process-sec {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.project-rating .counter {
+		font-size: 30px;
+		
+	}
+
+	.project-rating .title {
+		font-size: 18px;
+	}
+
 }

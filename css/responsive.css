@@ -86,6 +86,7 @@
 	.text-block .text {
 		font-size: 35px;
 		line-height: 50px;
+		margin-left: 100px;
 	}
 
 	.about-sec.style1 .service-list li {
@@ -187,6 +188,11 @@
 
 	.partners-list {
 		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+	.row {
+		margin-right: 0px;
 	}
 }
 
@@ -220,6 +226,16 @@
 
 	.navbar-default .navbar-nav>li {
 		margin: 0 3px 0 13px;
+	}
+
+	.text-block .text {
+		font-size: 26px;
+		margin-left: 150px;
+		margin-right: 120px;
+	}
+
+	.about-sec {
+		padding: 60px 0 0;
 	}
 
 	.service-sec {
@@ -279,21 +295,36 @@
 		left: 8%;
 	}
 
-	.team-sec {
-		padding: 60px 0 30px;
+	.project-rating .title {
+		font-size: 18px;
 	}
 
-	.team-sec .team-col {
-		margin: 0 15px 30px;
-		width: 45%;
+	.lease-info-item_in span {
+		left: 80%;
 	}
 
-	.team-sec .team-col:first-child {
-		margin: 0 15px 30px;
+	.lease-info-item_in h4 {
+		left: 55%;
+	}
+
+	.item-left span {
+		left: 210px;
+	}
+
+	.item-left h4 {
+		left: 45%;
 	}
 
 	.client-sec {
 		padding: 60px 0;
+	}
+
+	.client-sec .main-header h2 {
+		margin: 0px 0 25px;
+	}
+
+	.main-header-desc {
+		font-size: 18px;
 	}
 
 	.client-sec.style1 .client-list li {
@@ -391,6 +422,52 @@
 	.signup-form .form-control {
 		width: 60%;
 	}
+
+	.service-info p {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.service-info h3 {
+		font-size: 18px;
+	}
+
+	.service {
+		padding: 50px;
+		/* position: absolute;
+		top: 50%;
+		transform: translateY(-50%); */
+	}
+
+	.info-box-list {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.process-sec, .contact-sec {
+		padding: 0px 0 30px;
+	}
+
+	.contact-sec .main-header h2 {
+		margin: 0 0 10px;
+	}
+
+	.contact-info {
+		margin-left: 0;
+		box-sizing: content-box;
+		margin-top: 20px;
+	}
+
+	.city-minsk {
+		margin-left: 14px;
+	}
+	
+	.branch__block_city {
+		width: 49%;
+		margin-right: 0;
+		
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -491,6 +568,15 @@
 	.btn2 {
 		padding: 13px;
 		min-width: 240px;
+	}
+
+	.main-header h2 {
+		font-size: 25px;
+	}
+
+	.main-header p {
+		visibility: hidden;
+		position: absolute;
 	}
 
 	.next-section {
@@ -617,61 +703,8 @@
 		display: none !important;
 	}
 
-	.portfolio-sec {
-		padding: 40px 0 20px;
-	}
-
-	.portfolio-sec.style1 #portfolio-holder {
-		margin: 0;
-	}
-
-	.portfolio-sec.style1 #portfolio-holder .col:before {
-		left: 0;
-	}
-
-	.portfolio-sec.style1 #portfolio-holder .small {
-		width: 100%;
-		float: none;
-		padding: 0;
-		margin: 0 0 30px;
-	}
-
-	.portfolio-sec.style1 #portfolio-holder .large {
-		width: 100%;
-		padding: 0;
-		float: none;
-		margin: 0 0 30px;
-	}
-
-	#portfolio-holder .col {
-		width: 100%;
-		margin: 0 0 20px;
-		float: none;
-	}
-
-	#portfolio-holder .col h3 {
-		font-size: 26px;
-		line-height: 30px;
-		padding: 0 0 11px;
-		margin: 0 0 15px;
-	}
-
-	.team-sec {
-		padding: 40px 0 10px;
-	}
-
-	.team-sec .main-header {
-		margin: 0 0 40px;
-	}
-
-	.team-sec .team-col {
-		width: 100%;
-		float: none;
-		margin: 0 0 30px;
-	}
-
-	.team-sec .team-col:first-child {
-		margin: 0 0 30px;
+	.mission img {
+		margin-bottom: 20px;
 	}
 
 	.client-sec {
@@ -683,7 +716,7 @@
 		margin: 0 auto 30px;
 	}
 
-	.client-sec .main-header {
+	.client-sec .main-header h2 {
 		margin: 0;
 	}
 
@@ -841,5 +874,17 @@
 	.navigation-single .next a,
 	.navigation-single .prev a {
 		padding: .2em;
+	}
+
+	.item-left {
+		margin-left: 50px;
+	}
+
+	.item-left span {
+		left: 260px;
+	}
+
+	.item-left h4 {
+		left: 45%;
 	}
 }

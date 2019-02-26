@@ -5,8 +5,10 @@
 }
 
 .ellipsis {
-	white-space: nowrap; /* 1 */
-	text-overflow: ellipsis; /* 2 */
+	white-space: nowrap;
+	/* 1 */
+	text-overflow: ellipsis;
+	/* 2 */
 	overflow: hidden;
 }
 
@@ -38,6 +40,7 @@
 		left: -82px;
 		width: 74px;
 	}
+
 	.form-holder {
 		width: 1140px;
 	}
@@ -72,12 +75,17 @@
 		margin: 0 0 13px;
 	}
 
-	#nav ul > li {
+	#nav ul>li {
 		margin: 0 0 20px;
 	}
 
-	.navbar-default .navbar-nav > li {
+	.navbar-default .navbar-nav>li {
 		margin: 0 3px 0 23px;
+	}
+
+	.text-block .text {
+		font-size: 35px;
+		line-height: 50px;
 	}
 
 	.about-sec.style1 .service-list li {
@@ -176,6 +184,10 @@
 	.signup-form .form-group {
 		width: 73.6%;
 	}
+
+	.partners-list {
+		margin-top: 0px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -206,7 +218,7 @@
 		line-height: 14px;
 	}
 
-	.navbar-default .navbar-nav > li {
+	.navbar-default .navbar-nav>li {
 		margin: 0 3px 0 13px;
 	}
 
@@ -361,7 +373,7 @@
 	.signup-form.style2 .form-control {
 		margin: 0 23px 0 0;
 	}
-	
+
 	.signup-form.style3 .form-control {
 		width: 30%;
 		margin: 0 0 0 20px;
@@ -433,11 +445,11 @@
 		padding: 15px 0 0;
 	}
 
-	.navbar-default .navbar-nav > li {
+	.navbar-default .navbar-nav>li {
 		margin: 0 0 15px;
 	}
 
-	.navbar-default .navbar-nav > li > a {
+	.navbar-default .navbar-nav>li>a {
 		color: #808080;
 	}
 
@@ -468,11 +480,11 @@
 		display: none !important;
 	}
 
-	.main-slider.slider .slick-slide{
+	.main-slider.slider .slick-slide {
 		padding: 120px 0 0;
 	}
 
-	.main-slider .caption .column{
+	.main-slider .caption .column {
 		margin: 0 0 100px;
 	}
 
@@ -813,6 +825,7 @@
 	#footer .social-network {
 		float: left;
 	}
+
 	.navigation .page-numbers,
 	.navigation-comments .page-numbers {
 		padding: 0;
@@ -830,4 +843,3 @@
 		padding: .2em;
 	}
 }
-

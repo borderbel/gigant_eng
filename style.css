@@ -888,8 +888,8 @@ a.active {
 
 .text-block {
 	position: absolute;
-	left: 38%;
-	top: 50%;
+	left: 35%;
+	top: 60%;
 	transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -2115,7 +2115,7 @@ a.active {
 -------------------------------------------------------------------*/
 .partners-list {
 	list-style: none;
-	margin-bottom: 50px;
+	margin-top: 25px;
 }
 
 .partners-list-item {
@@ -2643,7 +2643,7 @@ a.active {
 /* contact__video */
 
 .branch__block_city {
-	width: 352px;
+	width: 100%;
 	float: left;
 	padding-top: 10px;
 	box-sizing: border-box;

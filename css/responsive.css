@@ -435,9 +435,6 @@
 
 	.service {
 		padding: 50px;
-		/* position: absolute;
-		top: 50%;
-		transform: translateY(-50%); */
 	}
 
 	.info-box-list {
@@ -460,13 +457,12 @@
 	}
 
 	.city-minsk {
-		margin-left: 14px;
+		margin-left: 27px;
 	}
 	
 	.branch__block_city {
-		width: 49%;
+		width: 48%;
 		margin-right: 0;
-		
 	}
 
 }
@@ -890,7 +886,7 @@
 	}
 
 	.item-left span {
-		left: 26px;
+		left: 30px;
 	}
 
 	.item-left h4 {
@@ -905,6 +901,7 @@
 		float: none;
 		margin: auto;
 		margin-bottom: 20px;
+		width: 60%;
 	}
 
 	.lease-info-item_in {
@@ -918,6 +915,32 @@
 
 	.process-sec {
 		margin-top: 30px;
+	}
+
+	.contact-sec .main-header {
+		margin: 0px 0 10px;
+	}
+
+	.contact-info {
+
+	}
+
+	.branch__block_city {
+		width: 47%;
+	}
+
+	.city_title {
+		bottom: 100px;
+	}
+
+	.branc__block_image {
+		height: 150px;
+		margin-bottom: 15px;
+	}
+
+	#map {
+		visibility: hidden;
+		position: absolute;
 	}
 }
 

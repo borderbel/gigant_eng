@@ -2091,11 +2091,33 @@ a.active {
 	margin-right: 15px;
 }
 
+/* parallax */
+.parallax {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+  }
+  .parallax__layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  }
+  .parallax__layer--base {
+	transform: translateZ(0);
+  }
+  .parallax__layer--back {
+	transform: translateZ(-1px);
+  }
+
 /*------------------------------------------------------------------
 17. client Sec / .client-sec
 -------------------------------------------------------------------*/
 .client-logo-wrapper {
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .client-list {
@@ -2124,6 +2146,10 @@ a.active {
 	width: 80px;
 	height: 80px;
 	margin-right: 20px;
+}
+
+.partners-list-item {
+
 }
 
 .partners-list-item img:hover {
@@ -2164,6 +2190,15 @@ a.active {
 
 .partners-logo {
 	width: 120px;
+}
+
+.nGY2TnImg img {
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
 }
 
 /*------------------------------------------------------------------
@@ -2277,7 +2312,7 @@ a.active {
 
 .client-sec {
 	overflow: hidden;
-	padding: 70px 0 37px;
+	padding: 60px 0 37px;
 }
 
 .client-sec.style1 .main-header {

@@ -16,6 +16,11 @@
 	body.boxed-v #wrapper {
 		max-width: 100%;
 	}
+
+	.mobile-city-title {
+		visibility: hidden;
+		position: absolute;
+	}
 }
 
 @media (max-width: 1399px) {
@@ -442,7 +447,8 @@
 		position: absolute;
 	}
 
-	.process-sec, .contact-sec {
+	.process-sec,
+	.contact-sec {
 		padding: 0px 0 30px;
 	}
 
@@ -459,7 +465,7 @@
 	.city-minsk {
 		margin-left: 27px;
 	}
-	
+
 	.branch__block_city {
 		width: 48%;
 		margin-right: 0;
@@ -896,6 +902,7 @@
 	.item-right {
 		margin: 0;
 	}
+
 	.lease-info-item_in row,
 	.lease-info_item {
 		float: none;
@@ -921,10 +928,6 @@
 		margin: 0px 0 10px;
 	}
 
-	.contact-info {
-
-	}
-
 	.branch__block_city {
 		width: 47%;
 	}
@@ -946,13 +949,67 @@
 
 @media (max-width: 576px) {
 
+	.text-block .text {
+		font-size: 15px;
+		margin-left: 300px;
+		margin-right: 400px;
+		line-height: 27px;
+	}
+
+	.lease-info-item_in div span {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.lease-info-item_in div h4 {
+		position: relative;
+		width: 100%;
+	}
+
+	.lease-info-item_in h4 {
+		left: 50%;
+		font-size: 13px;
+	}
+
+	.partners-list {
+		padding: 0;
+		text-align: center;
+	}
+
+	.partners-list-item {
+		width: 50px;
+		height: 50px;
+		margin-right: 5px;
+	}
 	.project-rating .counter {
 		font-size: 30px;
-		
+
 	}
 
 	.project-rating .title {
 		font-size: 18px;
+	}
+
+	.branc__block_image {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.branch__block_city {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.city-minsk {
+		margin-left: 0;
+	}
+
+	.mobile-city-title {
+		visibility: visible;
+		position: relative;
+		margin-bottom: 20px;
+		font-size: 20px;
 	}
 
 }

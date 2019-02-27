@@ -2676,6 +2676,10 @@ a.active {
 }
 
 /* contact__video */
+.mobile-city-title {
+	visibility: hidden;
+	position: absolute;
+}
 
 .branch__block_city {
 	width: 100%;

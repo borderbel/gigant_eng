@@ -1598,27 +1598,27 @@ a.active {
 }
 
 .service-logistic:hover {
-	background-image: url(images/privilege/logistic.jpg);
+	background-image: url(images/privilege/logistic.png);
 }
 
 .service-test:hover {
-	background-image: url(images/privilege/test.jpg);
+	background-image: url(images/privilege/test.png);
 }
 
 .service-prof:hover {
-	background-image: url(images/privilege/proff.jpg);
+	background-image: url(images/privilege/proff.png);
 }
 
 .service-cond:hover {
-	background-image: url(images/privilege/condition.jpg);
+	background-image: url(images/privilege/condition.png);
 }
 
 .service-speed:hover {
-	background-image: url(images/privilege/speed.jpg);
+	background-image: url(images/privilege/speed.png);
 }
 
 .service-serv:hover {
-	background-image: url(images/privilege/service.jpg);
+	background-image: url(images/privilege/service.png);
 }
 
 

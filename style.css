@@ -1582,11 +1582,11 @@ a.active {
 	position: relative;
 	padding: 50px;
 	background-size: cover;
-	transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-webkit-transition: all 1s ease;
+	transition: all 100ms ease;
+	-moz-transition: all 100ms ease;
+	-ms-transition: all 100ms ease;
+	-o-transition: all 100ms ease;
+	-webkit-transition: all 100ms ease;
 }
 
 .service:hover p {
@@ -2090,27 +2090,6 @@ a.active {
 .item-right {
 	margin-right: 15px;
 }
-
-/* parallax */
-.parallax {
-	perspective: 1px;
-	height: 100vh;
-	overflow-x: hidden;
-	overflow-y: auto;
-  }
-  .parallax__layer {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-  }
-  .parallax__layer--base {
-	transform: translateZ(0);
-  }
-  .parallax__layer--back {
-	transform: translateZ(-1px);
-  }
 
 /*------------------------------------------------------------------
 17. client Sec / .client-sec

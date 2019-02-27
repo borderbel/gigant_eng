@@ -16,11 +16,6 @@
 	body.boxed-v #wrapper {
 		max-width: 100%;
 	}
-
-	.mobile-city-title {
-		visibility: hidden;
-		position: absolute;
-	}
 }
 
 @media (max-width: 1399px) {

@@ -28,7 +28,7 @@
 #header.style1 .nav-opener:hover span,
 #header.style1 .nav-opener:hover:after,
 #header.style1 .nav-opener:hover:before,
-.contact-sec .contact-form .sub-btn:hover,
+.contact-form .sub-btn:hover,
 .service-sec.style1 .service-list li:hover .icon {
 	background: #be8b0a;
 }
@@ -38,7 +38,7 @@
 .loader > div,
 .portfolio-sec .filter-list .active a,
 .portfolio-sec .filter-list a:hover,
-.contact-sec .contact-form .sub-btn {
+.contact-form .sub-btn {
 	border-color: #be8b0a;
 }
 

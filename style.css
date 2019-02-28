@@ -2473,19 +2473,19 @@ a.active {
 	text-transform: uppercase;
 }
 
-.contact-sec .contact-form {
+.contact-form {
 	width: 100%;
 	overflow: hidden;
 	font: 400 14px/20px "Montserrat", sans-serif;
 	color: #808080;
 }
 
-.contact-sec .contact-form .form-group {
+.contact-form .form-group {
 	margin: 0 0 20px;
 	overflow: hidden;
 }
 
-.contact-sec .contact-form .form-control {
+.contact-form .form-control {
 	width: 100%;
 	height: 40px;
 	background: none;
@@ -2500,59 +2500,59 @@ a.active {
 	color: #808080;
 }
 
-.contact-sec .contact-form .form-control.error {
+.contact-form .form-control.error {
 	border-color: red;
 	color: red;
 }
 
-.contact-sec .contact-form .form-control::-webkit-input-placeholder {
+.contact-form .form-control::-webkit-input-placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form .form-control::-moz-placeholder {
+.contact-form .form-control::-moz-placeholder {
 	opacity: 1;
 	color: #808080;
 }
 
-.contact-sec .contact-form .form-control:-moz-placeholder {
+.contact-form .form-control:-moz-placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form .form-control:-ms-input-placeholder {
+.contact-form .form-control:-ms-input-placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form .form-control.placeholder {
+.contact-form .form-control.placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form .form-control.error::-webkit-input-placeholder {
+.contact-form .form-control.error::-webkit-input-placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form .form-control.error::-moz-placeholder {
+.contact-form .form-control.error::-moz-placeholder {
 	opacity: 1;
 	color: red;
 }
 
-.contact-sec .contact-form .form-control.error:-moz-placeholder {
+.contact-form .form-control.error:-moz-placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form .form-control.error:-ms-input-placeholder {
+.contact-form .form-control.error:-ms-input-placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form .form-control.error.placeholder {
+.contact-form .form-control.error.placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form .form-control:focus {
+.contact-form .form-control:focus {
 	border-color: #2b2a2a;
 	color: #808080;
 }
 
-.contact-sec .contact-form textarea {
+.contact-form textarea {
 	width: 100%;
 	min-height: 131px;
 	background: none;
@@ -2569,59 +2569,59 @@ a.active {
 	color: #808080;
 }
 
-.contact-sec .contact-form textarea.error {
+.contact-form textarea.error {
 	color: red;
 	border-color: red;
 }
 
-.contact-sec .contact-form textarea::-webkit-input-placeholder {
+.contact-form textarea::-webkit-input-placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form textarea::-moz-placeholder {
+.contact-form textarea::-moz-placeholder {
 	opacity: 1;
 	color: #808080;
 }
 
-.contact-sec .contact-form textarea:-moz-placeholder {
+.contact-form textarea:-moz-placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form textarea:-ms-input-placeholder {
+.contact-form textarea:-ms-input-placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form textarea.placeholder {
+.contact-form textarea.placeholder {
 	color: #808080;
 }
 
-.contact-sec .contact-form textarea.error::-webkit-input-placeholder {
+.contact-form textarea.error::-webkit-input-placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form textarea.error::-moz-placeholder {
+.contact-form textarea.error::-moz-placeholder {
 	opacity: 1;
 	color: red;
 }
 
-.contact-sec .contact-form textarea.error:-moz-placeholder {
+.contact-form textarea.error:-moz-placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form textarea.error:-ms-input-placeholder {
+.contact-form textarea.error:-ms-input-placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form textarea.error.placeholder {
+.contact-form textarea.error.placeholder {
 	color: red;
 }
 
-.contact-sec .contact-form textarea:focus {
+.contact-form textarea:focus {
 	border-color: #2b2a2a;
 	color: #808080;
 }
 
-.contact-sec .contact-form .sub-btn {
+.contact-form .sub-btn {
 	font: 500 18px/20px "Montserrat", sans-serif;
 	color: #2b2a2a;
 	width: 165px;
@@ -2638,7 +2638,7 @@ a.active {
 	transition: all .25s linear;
 }
 
-.contact-sec .contact-form .sub-btn:hover {
+.contact-form .sub-btn:hover {
 	color: #fff;
 }
 
@@ -2751,6 +2751,13 @@ a.active {
 	display: inline-block;
 	transition: 0.3s;
 	cursor: pointer;
+}
+
+/*------------------------------------------------------------------
+22. Feedback form / #feedback_form
+-------------------------------------------------------------------*/
+#feedback {
+	padding-bottom: 50px;
 }
 
 /*------------------------------------------------------------------

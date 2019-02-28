@@ -82,6 +82,8 @@
 
 .grid figure p {
 	letter-spacing: 1px;
+	word-spacing: 1px;
+	line-height: 18px;
 	font-size: 68.5%;
 }
 
@@ -133,7 +135,7 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-	padding-top: 30%;
+	padding-top: 20%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);

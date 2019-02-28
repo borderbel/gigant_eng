@@ -43,13 +43,17 @@
 	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
 
+	<!-- effect honey -->
+	<link rel="stylesheet" href="css/honey/component.css">
 	<!-- include jQuery -->
 	<script src="js/jquery.js"></script>
 
 	<!-- nanogallery -->
-	
 	<link rel="stylesheet" href="css/nanogallery2.min.css">
 	<script src="js/jquery.nanogallery2.min.js"></script>
+
+	<!-- swing_animation -->
+	<script src="js/swing_anim/bundle.js" defer></script>
 
 	<!-- API yandex maps -->
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=<6e2f9bf4-bc68-43bd-8d34-08d445098fab>&lang=en_US" type="text/javascript"></script>
@@ -73,7 +77,9 @@
 					<div class="col-xs-12">
 						<!-- main logo of the page -->
 						<div class="logo">
-							<a href="#"><img src="images/Logo_GIGANT_site.svg" alt="GIGANT"></a>
+							<a href="#">
+								<img src="images/Logo_GIGANT.png" alt="GIGANT">
+							</a>
 						</div>
 						<!-- main logo of the page end -->
 						<!-- nav of the page -->
@@ -133,105 +139,59 @@
 						</header>
 					</div>
 
-					<!-- row space -->
-					<div class="row row-space-1 margin-b-2">
-						<div class="col-md-4 col-sm-4 sm-margin-b-2">
-							<div class="wow fadeInLeft animated" data-wow-duration=".3" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-								<div class="service service-logistic" data-height="height" style="height: 252px;">
-									<div class="service-element">
-										<i class="service-icon fas fa-route"></i>
-									</div>
-									<div class="service-info">
-										<h3>Efficient logistics</h3>
-										<p class="margin-b-5">We ship anywhere in the Russian Federation and the CIS countries</p>
-									</div>
-									<a href="#" class="content-wrapper-link"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4 sm-margin-b-2">
-							<div class="wow fadeInLeft animated" data-wow-duration=".3" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-								<div class="service service-test" data-height="height" style="height: 252px;">
-									<div class="service-element">
-										<i class="service-icon fas fa-cogs"></i>
-									</div>
-									<div class="service-info">
-										<h3>Equipment testing</h3>
-										<p class="margin-b-5">Any model can be tested at the premises of the Production Department</p>
-									</div>
-									<a href="#" class="content-wrapper-link"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="wow fadeInLeft animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-								<div class="service service-prof" data-height="height" style="height: 252px;">
-									<div class="service-element">
-										<i class="service-icon fas fa-user-tie"></i>
-									</div>
-									<div class="service-info">
-										<h3>High standards of professionalism</h3>
-										<p class="margin-b-5">Multifaceted approach to attaining production and business goals </p>
-									</div>
-									<a href="#" class="content-wrapper-link"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--// end row space-->
+						<div class="grid">
+							<figure class="effect-bubba">
+								<img src="images/privilege/logistic_b.jpg" alt="logistic" />
+								<figcaption>
+									<h2>Efficient <span>logistics</span></h2>
+									<p>We ship anywhere in the Russian Federation and the CIS countries</p>
+								</figcaption>
+							</figure>
 
-					<!-- row space -->
-					<div class="row row-space-1 margin-b-2">
-						<div class="col-md-4 col-sm-4 sm-margin-b-2">
-							<div class="wow fadeInLeft animated" data-wow-duration=".3" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-								<div class="service service-cond" data-height="height" style="height: 252px;">
-									<div class="service-element">
-										<i class="service-icon fas fa-check-double"></i>
-									</div>
-									<div class="service-info">
-										<h3>Exclusive conditions</h3>
-										<p class="margin-b-5">Warranty service for the entire period of use</p>
-									</div>
-									<a href="#" class="content-wrapper-link"></a>
-								</div>
-							</div>
+							<figure class="effect-bubba">
+								<img src="images/privilege/test_b.jpg" alt="privilege" />
+								<figcaption>
+									<h2>Equipment <span>testing</span></h2>
+									<p>Any model can be tested at the premises of the Production Department</p>
+								</figcaption>
+							</figure>
+
+							<figure class="effect-bubba">
+								<img src="images/privilege/proff_b.jpg" alt="professionalism" />
+								<figcaption>
+									<h2>High standards of <span>professionalism</span></h2>
+									<p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+								</figcaption>
+							</figure>
+
+							<figure class="effect-bubba">
+								<img src="images/privilege/condition_b.jpg" alt="conditions" />
+								<figcaption>
+									<h2>Exclusive <span>conditions</span></h2>
+									<p>Warranty service for the entire period of use</p>
+								</figcaption>
+							</figure>
+							<figure class="effect-bubba">
+								<img src="images/privilege/speed_b.png" alt="fast_work" />
+								<figcaption>
+									<h2>Fast work <span>performance</span></h2>
+									<p>Quick and effective commissioning of equipment and engineer training</p>
+								</figcaption>
+							</figure>
+							<figure class="effect-bubba">
+								<img src="images/privilege/service_b.png" alt="service" />
+								<figcaption>
+									<h2>Rapid technical <span>services</span></h2>
+									<p>All spare parts are in stock</p>
+								</figcaption>
+							</figure>
 						</div>
-						<div class="col-md-4 col-sm-4 sm-margin-b-2">
-							<div class="wow fadeInLeft animated" data-wow-duration=".3" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-								<div class="service service-speed" data-height="height" style="height: 252px;">
-									<div class="service-element">
-										<i class="service-icon fas fa-stopwatch"></i>
-									</div>
-									<div class="service-info">
-										<h3>Fast work performance</h3>
-										<p class="margin-b-5">Quick and effective commissioning of equipment and engineer training </p>
-									</div>
-									<a href="#" class="content-wrapper-link"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="wow fadeInLeft animated" data-wow-duration=".3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-								<div class="service service-serv" data-height="height" style="height: 252px;">
-									<div class="service-element">
-										<i class="service-icon fas fa-warehouse"></i>
-									</div>
-									<div class="service-info">
-										<h3>Rapid technical services</h3>
-										<p class="margin-b-5">All spare parts are in stock</p>
-									</div>
-									<a href="#" class="content-wrapper-link"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--// end row -->
 				</div>
 			</section>
 			<!-- about us of the page end -->
 
 			<!-- Project Rating of the page -->
-			<section class="project-rating" style="background-image: url('images/numbers_bg.png');">
+			<section class="project-rating" style="background-image: url('images/numbers2_bg.jpg');">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-3 text-center wow" data-wow-delay="0.6s">
@@ -328,12 +288,6 @@
 								<img class="partners-logo" src="images/clients_logo/LUK_OIL_Logo.svg.png" alt="Gazprom">
 							</li>
 							<li class="partners-list-item">
-								<img class="partners-logo" src="images/clients_logo/NSRY_Logo.svg.png" alt="Gazprom">
-							</li>
-							<li class="partners-list-item">
-								<img class="partners-logo" src="images/clients_logo/Red_Sormovo_logo.svg.png" alt="Gazprom">
-							</li>
-							<li class="partners-list-item">
 								<img class="partners-logo" src="images/clients_logo/Ru1.png" alt="Gazprom">
 							</li>
 							<li class="partners-list-item">
@@ -361,6 +315,9 @@
 								<img class="partners-logo" src="images/clients_logo/logo.png" alt="Gazprom">
 							</li>
 							<li class="partners-list-item">
+								<img class="partners-logo" src="images/clients_logo/NSRY_Logo.svg.png" alt="Gazprom">
+							</li>
+							<li class="partners-list-item">
 								<img class="partners-logo" src="images/clients_logo/logo_0.png" alt="Gazprom">
 							</li>
 							<li class="partners-list-item">
@@ -377,6 +334,9 @@
 							</li>
 							<li class="partners-list-item">
 								<img class="partners-logo" src="images/clients_logo/лого.PNG" alt="Gazprom">
+							</li>
+							<li class="partners-list-item">
+								<img class="partners-logo" src="images/clients_logo/Red_Sormovo_logo.svg.png" alt="Gazprom">
 							</li>
 							<li class="partners-list-item">
 								<img class="partners-logo" src="images/clients_logo/rosn.jpg" alt="Gazprom">

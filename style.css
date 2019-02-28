@@ -1807,6 +1807,7 @@ a.active {
 	min-height: 370px;
 	background-position: 50% 50%;
 	background-size: cover;
+	opacity: 0.9;
 }
 
 .project-rating .title {
@@ -1818,7 +1819,7 @@ a.active {
 
 .project-rating .counter {
 	font: 700 40px/42px "Montserrat", sans-serif;
-	color: #fff;
+	color: #be8b0a;
 	display: block;
 	text-transform: uppercase;
 	margin: 0 0 10px;

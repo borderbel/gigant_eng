@@ -89,6 +89,11 @@
 		margin-left: 100px;
 	}
 
+
+	.grid .effect-bubba {
+		width: 40%;
+	}
+
 	.about-sec.style1 .service-list li {
 		width: 31.8%;
 		margin: 0 0 0 21px;
@@ -233,6 +238,13 @@
 		font-size: 26px;
 		margin-left: 150px;
 		margin-right: 120px;
+	}
+
+	.grid .effect-bubba {
+		height: 250px;
+	}
+	.grid .effect-bubba h2 {
+		font-size: 20px;
 	}
 
 	.about-sec {
@@ -574,6 +586,16 @@
 		margin-left: 240px;
 		margin-right: 250px;
 		line-height: 35px;
+	}
+
+	.grid .effect-bubba {
+		width: 70%;
+		height: 170px;
+	}
+
+	.grid .effect-bubba h2 {
+		padding-top: 6%;
+		font-size: 20px;
 	}
 
 	.info-box {
@@ -949,6 +971,21 @@
 		margin-left: 300px;
 		margin-right: 400px;
 		line-height: 27px;
+	}
+
+	.grid .effect-bubba {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.grid .effect-bubba h2 {
+		padding-top: 6%;
+    	font-size: 15px;
+	}
+
+	figure.effect-bubba:hover p {
+		visibility: hidden;
+		position: absolute;
 	}
 
 	.lease-info-item_in div span {

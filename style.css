@@ -1535,6 +1535,7 @@ a.active {
 
 .main-header p {
 	margin: 0;
+	line-height: 28px;
 }
 
 .main-header h2 {

@@ -590,7 +590,7 @@
 
 	.grid .effect-bubba {
 		width: 70%;
-		height: 170px;
+		height: 180px;
 	}
 
 	.grid .effect-bubba h2 {
@@ -966,6 +966,10 @@
 
 @media (max-width: 576px) {
 
+	.process-sec {
+		display: none;
+	}
+
 	.text-block .text {
 		font-size: 15px;
 		margin-left: 300px;
@@ -976,6 +980,7 @@
 	.grid .effect-bubba {
 		margin-left: 0;
 		margin-right: 0;
+		height: 200px;
 	}
 
 	.grid .effect-bubba h2 {
@@ -984,8 +989,7 @@
 	}
 
 	figure.effect-bubba:hover p {
-		visibility: hidden;
-		position: absolute;
+		/* visibility: hidden; */
 	}
 
 	.lease-info-item_in div span {
@@ -1043,4 +1047,23 @@
 		font-size: 20px;
 	}
 
+}
+
+@media (max-width: 360px) {
+	figure.effect-bubba:hover p {
+		display: none;
+	}
+
+	.grid .effect-bubba h2 {
+		padding-top: 6%;
+    	font-size: 15px;
+	}
+
+	.grid .effect-bubba {
+		height: 150px;
+	}
+
+	.grid .effect-bubba h2 {
+		padding-top: 20%;
+	}
 }

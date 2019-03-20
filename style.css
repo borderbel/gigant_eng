@@ -1798,6 +1798,7 @@ a.active {
 	padding: 20px 0;
 	font-style: italic;
 }
+
 /*------------------------------------------------------------------
 14. Project Rating / .project-rating
 -------------------------------------------------------------------*/
@@ -2129,9 +2130,7 @@ a.active {
 	margin-right: 20px;
 }
 
-.partners-list-item {
-
-}
+.partners-list-item {}
 
 .partners-list-item img:hover {
 	transition-duration: .2s;
@@ -2175,11 +2174,11 @@ a.active {
 
 .nGY2TnImg img {
 	-webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray;
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
 }
 
 /*------------------------------------------------------------------
